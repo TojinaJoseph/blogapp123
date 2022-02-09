@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 
 
-mongoose.connect("mongodb+srv://tojina:tojina@ictakfiles.j3i0k.mongodb.net/blogDatabase?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true});
+mongoose.connect(process.env."mongodb+srv://tojina:tojina@ictakfiles.j3i0k.mongodb.net/blogDatabase?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true});
 
 const Schema=mongoose.Schema;
 var blogschema=new Schema(
