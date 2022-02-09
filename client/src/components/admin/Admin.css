@@ -1,0 +1,91 @@
+.blog{
+    text-decoration: none;
+    color: white;
+}
+.log{
+    text-decoration: none;
+    color: white;
+    padding-left: 800px;
+    padding-right: 5px;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    /* margin-right: 20px; */
+}
+.adtitle{
+    /* padding-top: 20px; */
+   /* color: brown; */
+   text-decoration: none;
+  }
+  .adtile{
+      /* margin-top: 10px; */
+      /* text-align: center; */
+      /* margin-bottom: 10px; */
+      /* background-color: aqua; */
+      color: bisque;
+  }
+  .addes{
+      margin-top: 100px;
+      /* text-align: center; */
+      
+  }
+  .blogcont{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: aqua; */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .bloghead{
+      /* margin-top: -100px; */
+      /* padding-top: 10px; */
+      /* margin-bottom: 100px; */
+  }
+  .ahome{
+      /* padding-top: 10px; */
+      margin-bottom: 150px;
+      /* background-color: aqua; */
+  }
+  .but{
+      /* padding-right: 10px; */
+      
+      
+  }
+  .but1{
+      padding-right: 100px;
+  }
+  .articlelink{
+
+      margin-top: 50px;
+      text-align: center;
+      margin-left: 400px;
+      margin-right: 400px;
+      background-color: black;
+      margin-bottom: 10px;
+      
+  }
+  .adminblog{
+      /* background-color: blue; */
+      margin-top: -100px;
+  }
+  .addcont{
+      background-color: lightgoldenrodyellow;
+      margin-top: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  .buttons{
+      /* background-color: yellow; */
+      float: right;
+      /* padding-left: 200px;
+      margin-left: 300px; 
+      margin-right: 300px;
+      padding-right: 100px; */
+  }
+  

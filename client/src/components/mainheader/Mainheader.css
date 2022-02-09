@@ -1,0 +1,17 @@
+.blog{
+    text-decoration: none;
+    color: white;
+}
+.log{
+    text-decoration: none;
+    color: white;
+    padding-left: 750px;
+    padding-right: 10px;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    /* padding-right: 10px; */
+    /* margin-right: 10px; */
+}
