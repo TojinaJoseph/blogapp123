@@ -52,7 +52,7 @@ const Signup = (props) => {
       const cpwd= formvalues.cpass;
      if(user && em && pwd && cpwd){
         console.log("not having values");
-        const response=await fetch("http://localhost:6002/api/register",{
+        const response=await fetch("/api/register",{
             method: "post",
             body: JSON.stringify({user,em,pwd,cpwd}),
             headers: {
