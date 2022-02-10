@@ -48,13 +48,15 @@ async function fetchregisters(){
     })
     }
 
-// useEffect(()=>{
-//     if(Object.keys(errorvalues).length===0 && issubmit){
+useEffect(()=>{
+     if(Object.keys(errorvalues).length===0 && issubmit){
 
-//         alert("login successfully");
-//     }
+        alert("login successfully");
+    }
    
-// },[errorvalues]);
+ },[errorvalues]);
+  
+  
 // async function fetchlogin(){
 //       const email= loginvalue.email;
 //       const pass= loginvalue.pass;
