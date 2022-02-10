@@ -9,6 +9,10 @@
     
 
 }
+.login p{
+    padding-top: -10px;
+color: red;
+}
 h1{
     transform: translateY(80px);
     text-align: center;
