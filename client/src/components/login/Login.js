@@ -28,7 +28,7 @@ const handlesubmitlogin=(event)=>{
 
 event.preventDefault();
  setErrorvalues(loginvalidation(loginvalue));
- fetchregisters();
+ //fetchregisters();
 
 }
 
@@ -92,7 +92,7 @@ async function fetchregisters(){
             <p>{errorvalues.pass}</p>
             {/* <Link to="/mainhome"> */}
             {/* <Link to="/adminhome"> */}
-            <Button variant="contained" type="submit" >login</Button>
+            <Button variant="contained" type="submit" onClick={fetchregisters} >login</Button>
             {/* </Link> */}
             </form>
         </div>
