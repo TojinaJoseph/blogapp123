@@ -17,9 +17,7 @@ app.use(cors());
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-app.get("/*",(req,res)=>{
-    res.sendFile(path.join(__dirname,'client','build','index.html'));
-})
+
  
 // add articles
 app.post("/api/admin/addarticle",async (req,res)=>{
@@ -240,6 +238,9 @@ app.get("/api/registers",(req,res)=>{
    
 })
 
+app.get("*",(req,res)=>{
+    res.sendFile(path.join(__dirname,'client','build','index.html'));
+})
 
 app.listen(port,()=>{
 console.log("server running on port "+port);
