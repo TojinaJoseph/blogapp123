@@ -35,7 +35,7 @@ event.preventDefault();
 async function fetchregisters(){
     const response=await fetch("/api/registers");
     const body=await response.json();
-    console.log(body);
+//     console.log(body);
     setRegisters(body);
     console.log(registers);
     
