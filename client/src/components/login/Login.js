@@ -53,6 +53,7 @@ useEffect(()=>{
 
         alert("login successfully");
     }
+ fetchregisters();
    
  },[errorvalues]);
   
@@ -94,7 +95,7 @@ useEffect(()=>{
             <p>{errorvalues.pass}</p>
             {/* <Link to="/mainhome"> */}
             {/* <Link to="/adminhome"> */}
-            <Button variant="contained" type="submit" onClick={fetchregisters} >login</Button>
+            <Button variant="contained" type="submit">login</Button>
             {/* </Link> */}
             </form>
         </div>
